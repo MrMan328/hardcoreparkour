@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="game_setgameoverplayable" id="NpO~AAQhby2#!rAr=(|d" disabled="true" x="-10" y="-110"><value name="sound"><shadow type="music_melody_playable" id="jy!AW;Y[OQp,,%IQ:DT4" disabled="true"><field name="melody">music.powerUp</field></shadow></value><value name="looping"><shadow type="toggleOnOff" id="9Yfu@|i9%:n;dq4GTkSt" disabled="true"><field name="on">false</field></shadow></value><value name="win"><shadow type="toggleWinLose" id="#(#8s(S6kSM3:iex2IBE" disabled="true"><field name="win">true</field></shadow></value></block><block type="pxt-on-start" id=";S(z(WYGc2oxBNR_YYoJ" x="0" y="0"></block><block type="hudScore" id="f,l89)S+UX;Su]K_)dS:" disabled="true" x="290" y="230"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="b-~y?{ib8]JR,#NwwFid">mySprite</variable><variable type="KIND_SpriteKind" id="J;,/;}emLUehS/OQrs/[">Player</variable><variable type="KIND_SpriteKind" id="fj[CKD.H/fuiL)QDlqeE">Projectile</variable><variable type="KIND_SpriteKind" id="62?7Z?$wEAL@FNm`W2EE">Food</variable><variable type="KIND_SpriteKind" id=",#eZ@EZcr=Ly]vnZoFiJ">Enemy</variable></variables><block type="game_setgameoverplayable" id="NpO~AAQhby2#!rAr=(|d" disabled="true" x="-10" y="-110"><value name="sound"><shadow type="music_melody_playable" id="jy!AW;Y[OQp,,%IQ:DT4" disabled="true"><field name="melody">music.powerUp</field></shadow></value><value name="looping"><shadow type="toggleOnOff" id="9Yfu@|i9%:n;dq4GTkSt" disabled="true"><field name="on">false</field></shadow></value><value name="win"><shadow type="toggleWinLose" id="#(#8s(S6kSM3:iex2IBE" disabled="true"><field name="win">true</field></shadow></value></block><block type="pxt-on-start" id=";S(z(WYGc2oxBNR_YYoJ" x="0" y="0"></block><block type="variables_set" id="C,Jw1NNxtzoN[bAi)vcD" disabled="true" x="450" y="30"><field name="VAR" id="b-~y?{ib8]JR,#NwwFid">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="^dz-)u5RfzD#+62fxoz." disabled="true"><value name="img"><shadow type="screen_image_picker" id="{4Gespp4{7IfKdUb6#Uf" disabled="true"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"{4Gespp4{7IfKdUb6#Uf"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="^O6s,i^+,`.M[Z7Ms5q1" disabled="true"><field name="MEMBER">Player</field></shadow></value></block></value></block><block type="hudScore" id="f,l89)S+UX;Su]K_)dS:" disabled="true" x="290" y="230"></block></xml>
